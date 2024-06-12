@@ -1,0 +1,10 @@
+.footer {
+  position: relative;
+  background-color: #abcdef; /* Altere para a cor desejada */
+  color: #111010;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  line-height: 20px; /* Centralizar verticalmente */
+  margin-top: 50px; /* Ajusta a margem superior para 50px */
+}

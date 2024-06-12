@@ -1,0 +1,110 @@
+/* forms.css */
+
+/* Estilos para o menu */
+.menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #333;
+    padding-top: 80px;
+    transition: all 0.3s ease;
+  }
+  
+  .menu.open {
+    left: 0;
+  }
+  
+  .menu.closed {
+    left: -250px;
+  }
+  
+  .menu h2 {
+    color: #fff;
+    text-align: center;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    margin-bottom: 15px;
+  }
+  
+  .menu ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .menu ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .toggle-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .toggle-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para o formulário */
+  .form-wrapper {
+    margin-top: 50px;
+    padding: 0 20px;
+  }
+  
+  .form-wrapper form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-wrapper label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .form-wrapper input[type="text"],
+  .form-wrapper input[type="email"],
+  .form-wrapper textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-wrapper textarea {
+    resize: vertical;
+  }
+  
+  .form-wrapper button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-wrapper button:hover {
+    background-color: #0056b3;
+  }
